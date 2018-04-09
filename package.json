@@ -1,0 +1,32 @@
+{
+  "name": "@kbco/auth",
+  "version": "0.0.1",
+  "description": "A simple auth package for apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec tests/*spec.js"
+  },
+  "author": "Austin Kregel",
+  "license": "MIT",
+  "devDependencies": {
+    "@kbco/router": "^0.0.*",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.15.6",
+    "hapi": "^16.6.0",
+    "hapi-test": "^5.2.0",
+    "mocha": "^4.1.0",
+    "moment": "^2.20.1",
+    "mongoose": "^4.13.9",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
